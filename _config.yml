@@ -15,11 +15,11 @@ name                     : &name "Dan Zhao"
 description              : &description "Postdoc at HU Berlin & PIK"
 # The URL of your site (e.g. "https://academic-page.github.io/")
 # Note: Make sure to fill this in with your absolute URL, without a trailing slash.
-url: "https://zhaodan-npu.github.io"
+url:"https://zhaodan-npu.github.io"
 
 # The base URL of your site
 # Note: If you are hosting your site at the root of a project, this should be an empty string.
-baseurl: ""
+baseurl:""
 repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -33,7 +33,7 @@ author:
   bio              : "Postdoctoral Researcher"
   location         : "Berlin/Potsdam, Germany"
   employer         : "Red Brick University"
-url: "https://zhaodan-npu.github.io"
+url:"https://zhaodan-npu.github.io"
   email            : "zzhaodannn@163.com" 
 
   # Academic websites
