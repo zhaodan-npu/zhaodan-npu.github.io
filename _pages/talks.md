@@ -1,10 +1,12 @@
 ---
-layout: archive
+layout: default
 permalink: /talks/
-title: "Talks and Presentations"
-author_profile: true
 ---
 
-{% for post in site.talks reversed %}
-  {% include archive-single.html %}
+# My Talks (Test Page)
+
+<ul>
+{% for talk in site.talks %}
+  <li>{{ talk.title }}</li>
 {% endfor %}
+</ul>
