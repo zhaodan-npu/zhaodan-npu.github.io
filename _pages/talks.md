@@ -1,8 +1,10 @@
 ---
-layout: collection
+layout: archive
 permalink: /talks/
-collection: talks
-entries_layout: list
+title: "Talks and Presentations"
+author_profile: true
 ---
 
-## Talks and Presentations
+{% for post in site.talks reversed %}
+  {% include archive-single.html %}
+{% endfor %}
